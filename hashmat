@@ -1,0 +1,19 @@
+
+// Dela Cruz, Aaron Christian C.
+// CPEPROGLA2 E21
+
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	int hashmatArmy, oppArmy;
+
+	while(cin>>oppArmy>>hashmatArmy)
+	{
+		if(hashmatArmy<oppArmy)break;
+		cout<<(hashmatArmy-oppArmy)<<endl;
+	}
+	return 0;
+}
