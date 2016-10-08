@@ -8,11 +8,11 @@
 using namespace std;
 
 int main(){
-	ifstream f("hashmat.txt");
+	ifstream f("input.txt");
 	
 	int hashmat, opponent;
 	FILE *fp;
-	fp = fopen ("hashmat.txt", "r");
+	fp = fopen ("input.txt", "r");
 	
 	if(!fp){
 		cout << "cannot open the file";
